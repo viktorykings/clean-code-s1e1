@@ -96,7 +96,7 @@ label[for='new-task'] {
 }
 
 /* Task list */
-li {
+.list {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -105,11 +105,11 @@ li {
   justify-content: space-between;
   align-items: center;
 }
-li > * {
+.list > * {
   vertical-align: middle;
 }
 
-li > input[type="checkbox"] {
+.list__checkbox {
   margin: 0 10px;
 }
 li > label {
